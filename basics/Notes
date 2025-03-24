@@ -1,0 +1,22 @@
+comments:
+one line comments start with %
+multiline comments start with /* and end with */
+
+variables:
+variables start with a Capital letter
+variables can contain letters, numbers, and underscores
+
+predicates:
+predicates start with a lower case letter
+predicates can contain letters, numbers, and underscores
+
+
+to show all the predicates in a file:
+ex: father(A,B) :- father(A,B). => this will show all the predicates that start with parent and have a body
+
+logical operators:
+
+and: A and B => A,B
+or: A or B  => A;B
+not: not A  => \+A
+if: if A then B else C => A -> B ; A \= B -> C
