@@ -20,3 +20,11 @@ and: A and B => A,B
 or: A or B  => A;B
 not: not A  => \+A
 if: if A then B else C => A -> B ; A \= B -> C
+
+
+Prolog Execution :
+    -> using the Backtracking algorithm from the left to the right.
+
+
+    concatinatiin deux listes:
+    
